@@ -28,8 +28,9 @@ jobs:
       - name: Generate coverage report        
         uses: danielpalme/ReportGenerator-GitHub-Action@5.1.9
         with:
-          reports: 'gcovr-report.xml'
-          targetdir: .
+          reports: '*-report.xml'
+          reporttypes: 'HtmlInline'
+          targetdir: reports
 
       - name: Upload coverage report artifact
         if: always()
@@ -41,3 +42,9 @@ jobs:
             ! ./Debug
             ! ./Release
             ! ./LDRA
+            ! .git
+            ! .github
+            ! .settings
+            ! reportgeneratortool
+            ! scripts
+            ! targetConfigs
