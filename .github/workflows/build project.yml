@@ -38,13 +38,5 @@ jobs:
         with:
           name: 'Coverage report'
           path: |
-            .
-            ! ./Debug
-            ! ./Release
-            ! ./LDRA
-            ! .git
-            ! .github
-            ! .settings
-            ! reportgeneratortool
-            ! scripts
-            ! targetConfigs
+            ./src
+            ./reports
