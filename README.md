@@ -1,6 +1,6 @@
 # template_ccs_project_msp430
 
-```
+```text
 +-- .project
 +-- .cproject
 +-- .ccsproject
