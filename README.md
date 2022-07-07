@@ -18,10 +18,6 @@
 |   +-- <Feature Documentation>
 +-- <scripts>
 |   +-- <setup_git_hooks>
-|   +-- <collect_metrics>
-|       +-- code_metric_file_1.py
-|       +-- code_metric_file_2.py
-|       +-- prepare_venv.bat
 +-- <src>
 |   +-- main.c
 |   +-- main.h
